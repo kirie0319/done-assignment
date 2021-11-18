@@ -1,0 +1,88 @@
+.plane {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 60px;
+  border: solid 3px #ccc;
+  padding: 50px 50px 0;
+  position: relative;
+}
+
+.plane h1 {
+  width: 37px;
+  font-size: 12px;
+  background: #ccc;
+  color: #fff;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+}
+
+#open {
+   margin: 20px 0;
+}
+
+#open, #close {
+  width: 70px;
+  background: red;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+#open:hover, #close:hover {
+  opacity: 0.6;
+}
+
+#mask {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#mask.hide {
+  display: none;
+}
+
+#modal.hide {
+  transform: translate(0, -500px);
+}
+
+#modal {
+  width:  300px;
+  background: #fff;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 2px;
+  text-align: center;
+  transition: transform .4s;
+}
+
+
+#modal > p {
+  padding: 20px 20px 20px 20px;
+}
+
+input {
+  display: inline-block;
+  border: solid 1px black;
+}
+
+.btn-cover {
+  background: #ccc;
+  height: 60px;
+  align-items: center;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+
+#close {
+  margin-left: 200px;
+}

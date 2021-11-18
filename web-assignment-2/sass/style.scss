@@ -1,0 +1,2780 @@
+main {
+  width: 100%;
+
+  .main-p1 {
+    display: none;//add
+  }
+
+  .message-gray {//add
+    width: 208px;
+    height: 700px;
+    background-color: #f4f4f4;
+    position: absolute;
+    top: -20px;
+    left: 167px;
+  }
+
+  .message {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    position: relative;
+    margin-top: 91px;
+    height: 720px;//add
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 40px;
+      margin-left: 85px;
+      position: relative;//add
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 30px;
+      margin-left: 47px;
+      position: relative;//add
+    }
+
+    .english {
+      margin-top: 30px;
+      letter-spacing: 1px;
+      line-height: 20px;//add
+    }
+
+    .smart {//add
+      letter-spacing: 1px;
+      line-height: 20px;
+    }
+
+    .message-read {
+      display: block;
+      font-size: 12px;
+      border: 2px solid #707070;
+      padding: 10px 28px;
+      width: 130px;
+      position: relative;
+      margin-top: 26px;//add
+      margin-left: 239px;//add
+    }
+
+    .message-photo {
+      position: relative;
+      margin-top: 20px;
+
+      .message-photo2 {
+        width: 214px;
+        height: 144px;
+        position: relative;
+      }
+      
+      .message-photo1 {
+        position: absolute;//add
+        left: 103px;//add
+        top: 141px;//add
+        width: 271px;
+        height: 178px;
+      }
+    }
+  }
+
+  .background {
+    background-color: #f8f8f8;
+  }
+
+  .main-lodge {
+    width: 375px;
+    margin: 0 auto;
+    position: relative;
+
+    h1 {
+      font-size: 25px;
+      position: relative;
+      text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+      padding-top: 44px;
+      margin-left: 59px;
+
+      &::after {
+        content: " - 宿泊ロッジ - ";
+      }
+    }
+
+    .lodge-under {
+      width: 192px;
+      border-bottom: 2px solid #707070;
+      position: absolute;
+      left: 136px;
+      top: 90px;
+    }
+
+    .logo-phont {
+      width: 106px;
+      height: 252px;
+      position: absolute;
+      top: 112px;
+      left: 13px;
+    }
+  
+    .container {
+      .text-lodge {
+        margin-top: 74px;
+        margin-left: 106px;
+        width: 269px;
+        height: 400px;
+        background-color: #ffffff;
+        padding-top: 24px;
+        padding-left: 22px;
+
+        p {
+          font-size: 15px;
+          line-height: 20px;
+        }
+
+        .lodge-english {
+          letter-spacing: 1px;
+          margin-top: 76px;
+        }
+
+        .lodge-read {
+          display: block;
+          border: 2px solid #707070;
+          font-size: 12px;
+          padding: 10px 28px;
+          width: 130px;
+          margin-top: 26px;//add
+          margin-left: 115px;
+        }
+      }
+
+      .lodge-img {
+        img {
+          width: 375px;
+          height: 245px;
+        }
+      }
+    }
+
+    .lodge-array {
+      display: flex;
+      margin-top: 30px;
+      
+      img {
+        width: 75px;
+        height: 75px;
+      }
+    }
+  }
+
+  .main-food {
+    width: 375px;
+    margin: 0 auto;
+    position: relative;
+
+    h1 {
+      font-size: 25px;
+      text-shadow: 0px 2px  1px rgba(0, 0, 0, 0.3);
+      margin-top: 64px;
+      margin-left: 42px;
+    }
+
+    .logo-food {
+      position: absolute;
+      width: 53px;
+      height: 466px;
+      top: 51px;
+      left: 50px;
+    }
+
+    .text-food {
+      width: 270px;
+      height: 415px;
+      padding-left: 27px;
+      padding-top: 30px;
+      margin-left: 103px;
+      margin-top: 43px;//add
+      background-color: #f8f8f8;//add
+
+      p {
+        font-size: 15px;
+      }
+
+      .english {
+        letter-spacing: 1px;
+        margin-top: 58px;
+      }
+
+      .food-read {
+        display: block;
+        font-size: 12px;
+        border: 2px solid #707070;
+        padding: 10px 28px;
+        width: 130px;
+        margin-left: 110px;
+        margin-top: 50px;//add
+      }
+    }
+
+    .food-img {
+      margin-top: 80px;
+
+      img {
+        width: 375px;
+        height: 255px;
+      }
+    }
+
+    .food-array {
+      margin-top: 10px;
+      display: flex;
+
+      img {
+        width: 75px;
+        height: 75px;
+      }
+    }
+  }
+
+  .main-int {
+    position: relative;
+    margin: 0 auto;
+    width: 375px;
+
+    h1 {
+      font-size: 25px;
+      text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+      padding-top: 72px;
+      margin-left: 52px;
+      position: relative;//add
+
+      &::after {
+        content: "  - 体験プログラム - ";
+        position: absolute;//add
+        top: 100px;
+        left: 20px;
+      }
+    }
+
+    .int-under {//add
+      width: 197px;
+      border-bottom: 2px solid #707070;
+      position: absolute;
+      top: 160px;
+      left: 100px;
+    }
+
+    .logo-int {
+      position: absolute;
+      width: 80px;
+      height: 336px;
+      left: 33px;
+      top: 180px;
+    }
+
+    .text-int {
+      width: 269px;
+      height: 400px;
+      padding-top: 24px;
+      padding-left: 22px;
+      margin-left: 105px;
+      margin-top: 75px;
+      background-color: #ffffff;//add
+
+      p {
+        font-size: 15px;
+      }
+
+      .english {
+        letter-spacing: 1px;
+        margin-top: 76px;
+      }
+
+      .int-read {
+        display: block;
+        font-size: 12px;
+        padding: 10px 28px;
+        border: 2px solid #707070;
+        width: 130px;
+        margin-left: 110px;
+        margin-top: 50px;//add
+      }
+    }
+
+    .int-img {
+      img {
+        width: 375px;
+        height: 250px;
+      }
+    }
+
+    .int-array {
+      margin-top: 13px;
+      display: flex;
+
+      img {
+        width: 75px;
+        height: 75px;
+      }
+    }
+  }
+
+  .main-book {
+    width: 375px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+
+    .text-book {
+      text-align: center;
+      margin-top: 107px;
+      font-size: 15px;
+      line-height: 30px;
+      margin-left: auto;
+      margin-right: auto;
+
+      .brank {
+        margin-top: 52px;
+      }
+    }
+
+    .container {
+      position: relative;
+      margin-top: 62px;
+
+      .main-contact {
+        position: relative;
+        width: 220px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;//add
+
+        .c-caption {
+          font-size: 25px;
+          text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+          position: relative;
+          margin-bottom: 66px;
+          z-index: 1;
+
+          &::after {
+            content: " - お問い合わせ/ご予約 - ";
+            position: absolute;//add
+            top: 40px;
+            left: 29px;
+            font-size: 15px;//add
+          }
+        }
+
+        p {
+          position: relative;
+          z-index: 1;
+          font-size: 15px;
+          line-height: 30px;//add
+        }
+      }
+
+      .contact-btn {
+        display: block;
+        z-index: 1;
+        padding: 9px 25px;
+        border: 1px solid #707070;
+        width: 240px;
+        margin-top: 48px;
+        position: relative;
+        z-index: 1;
+
+        &::after {
+          content: "-お問い合わせ-";
+        }
+      }
+
+      .book-btn {
+        display: block;
+        z-index: 1;
+        padding: 9px 25px;
+        border: 1px solid #707070;
+        width: 180px;
+        margin-top: 14px;
+        margin-left: 117px;
+        position: relative;
+        z-index: 1;
+
+        &::after {
+          content: "-ご予約-";
+        }
+      }
+
+      .main-booking {//add
+        p {
+          display: none;
+        }
+
+        .b-caption {
+          display: none;
+        }
+      } 
+
+      .contact-gray {
+        position: absolute;
+        z-index: 0;
+        width: 294px;
+        height: 372px;
+        background-color: #f8f8f8;
+        top: -10px;
+        
+      }
+    }
+  }
+}
+footer {
+  .footer-main {
+    background-color: #000000;
+    height: 391px;
+    opacity: 0.95;
+    color: #ffffff;
+
+    img {
+      width: 259px;//add
+      height: 205px;//add
+      margin-left: 58px;
+    }
+
+    .footer-iroha {//add
+      display: none;
+    }
+
+    .footer-contact {
+      margin-top: 30px;//add
+      position: relative;
+
+      h1 {
+        display: none;//add
+      }
+
+      p {
+        font-size: 13px;
+        line-height: 26px;//add
+        text-align: center;//add
+      }
+
+      .footer-square {//add
+        position: absolute;
+        font-size: 2em;
+        top: -70px;
+        left: 107px;
+      }
+
+      .sm-insta {//add
+        left: 250px;
+      }
+    }
+  }
+
+  .copy {
+    height: 37px;
+    background-color: #000000;
+    opacity: 0.8;
+
+    p {
+      display: none;
+    }
+
+    .sm-copy {
+      display: block;
+      color: #ffffff;
+      font-size: 10px;
+      text-align: center;//add
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+#idshow1 {
+  position: absolute;
+}
+
+.fadeout {
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.fadein {
+  opacity: 1;
+  transition: 1s ease;
+}
+
+.slide {
+  position: absolute;
+  z-index: 0;
+  display: none;
+  
+  
+  
+  img {
+    height: 100vh;
+    width: 100vw;    
+  }
+}
+
+.slideshow {
+  position: absolute;
+  z-index: 0;
+
+  img {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+#show1 {
+  position: absolute;
+}
+
+
+
+.header_parent {
+  background-image: url(../img/logo-white.png);
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-size: 80%;
+  height: 100vh;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  background-color: rgba($color: #000000, $alpha: 0.7);
+  height: 62px;
+  
+  .caption {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    margin-left: 16px;
+    position: relative;
+
+    .logo-iroha {
+      font-size: 20px;
+      margin-left: 25px;
+      
+    }
+    
+    &::after {
+      content: "-Yakushima Lodge& Food Atelier-";
+      font-size: 10px;
+      position: absolute;
+      top: 22px;
+      left: -5px;
+    }
+
+
+  }
+
+  
+}
+
+.header.hide {
+  display: none;
+}
+
+.wide_ul {
+  display: none;
+}
+
+#open {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 12px;
+  right: 25px;
+  cursor: pointer;
+}
+
+#open.hide {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 65px;
+  background: rgba($color: #000000, $alpha: 0.7);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateX(16px);
+  transition: opacity .3s, transform .3s;
+  width: 100%;
+}
+
+.overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: none;
+}
+
+.close_caption {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-left: 18px;
+  position: relative;
+}
+
+.close_logo_iroha {
+  font-size: 20px;
+  margin-left: 20px;
+  
+  &::after {
+    content: "-Yakushima Lodge& Food Atelier-";
+    font-size: 10px;
+    position: absolute;
+    top: 22px;
+    left: -5px;
+  }
+}
+
+#close {
+  color: white;
+  position: absolute;
+  top: 12px;
+  right: 25px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.close_ul {
+  display: block;
+  width: 94px;
+  font-size: 15px;
+  color: white;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.close_li {
+  margin-top: 55px;
+}
+
+.c_about::after {
+  content: '-いろはのこと-';
+  font-size: 13px;
+  position: absolute;
+  top: 140px;
+  left: 0;
+  right: 0;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.c_lodge::after {
+  content: '-宿泊ロッジ-';
+  font-size: 13px;
+  position: absolute;
+  top: 210px;
+  left: 0;
+  right: 0;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.c_food::after {
+  content: '-食工房/ラウンジ-';
+  font-size: 13px;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  right: 0;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.c_int::after {
+  content: '-体験プログラム-';
+  font-size: 13px;
+  position: absolute;
+  top: 390px;
+  left: 0;
+  right: 0;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.c_book::after {
+  content: '-ご予約-';
+  font-size: 13px;
+  position: absolute;
+  top: 460px;
+  left: 0;
+  right: 0;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.face_b {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 500px;
+  left: 90px;
+}
+
+.insta {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 500px;
+  right: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 376px) {
+  header {
+    background-position: center;
+  }
+
+  .header_parent {
+    background-position: center;
+    background-size: 50%; 
+  }
+  
+  .slide {
+    display: block;
+    
+    img {
+      width: 100%;
+    }
+
+    
+  }
+
+  .slideshow {
+    display: none;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .header {
+    height: 54px;
+
+    .caption {
+      font-size: 14px;
+      margin-top: 14px;
+      margin-left: 29px;
+  
+      .logo-iroha {
+        font-size: 20px;
+  
+      }
+  
+      &::after {
+        font-size: 10px;
+        top: 22px;
+      }
+  
+      
+    }
+  }
+  #open {
+    top: 12px;
+    right: 26px;
+    font-size: 2em;
+  }
+
+  .overlay {
+    left: 0;
+    transform: translateY(-16px);
+  }
+  
+  .close_caption {
+    margin-left: 30px;
+    font-size: 14px;
+  }
+
+  .close_logo_iroha {
+    margin-left: 25px;
+  }
+
+  .close_li {
+    margin-top: 42px;
+  }
+
+  .face_b {
+    width: 28px;
+    top: 390px;
+    right: 43px;
+  }
+
+  .sns_face {
+    margin-left: 62%;
+  }
+
+  .insta {
+    top: 390px;
+    right: 43px;
+  }
+  
+  .c_about::after {
+    top: 130px;
+  }
+  
+  .c_lodge::after {
+    top: 190px;
+  }
+  
+  .c_food::after {
+    top: 270px;
+  }
+  
+  .c_int::after {
+    top: 340px;
+  }
+  
+  .c_book::after {
+    top: 400px;
+  }
+  
+}
+
+@media (min-width: 441px) {
+  main {
+    width: 100%;
+
+    .main-p1 {
+      display: block;
+    }
+
+    .message-gray {
+      display: none;
+    }
+  
+    .message {
+      margin-left: auto;
+      margin-right: auto;
+      width: 441px;
+      margin-top: 35px;
+      position: relative;
+      height: auto;
+  
+      h1 {
+        font-size: 14px;
+        margin-bottom: 21px;
+        margin-left: 68px;
+        position: static;
+      }
+  
+      p {
+        font-size: 9px;
+        margin-left: 54px;
+        line-height: 18px;
+        position: static;
+        transform: scale(0.9);//add
+        transform-origin: left center;//add
+      }
+  
+      .margin {
+        margin-bottom: 18px;
+      }
+  
+      .english {
+        margin-top: 30px;
+        letter-spacing: 1px;
+        line-height: 18px;
+      }
+
+      .smart {
+        display: none;
+      }
+  
+      .message-read {
+        display: block;
+        font-size: 7px;
+        border: 1px solid #707070;
+        padding: 9px 20px;
+        width: 98px;
+        transform: scale(0.7);//add 1920
+        position: absolute;
+        top: 162px;
+        left: 285px;
+        margin-top: 0;
+        margin-left: 0;
+      }
+  
+      .message-photo {
+        margin-top: 41px;//add
+        margin-left: 138px;//add
+        margin-bottom: 33px;//add
+        position: relative;//add
+  
+        .message-photo1 {
+          position: static;
+          width: 200px;
+          height: 137px;
+        }
+  
+        .message-photo2 {
+          position: absolute;
+          width: 100px;
+          height: 67px;
+          top: 83px;
+          left: -63px;
+        }
+      }
+    }
+  
+    .background {
+      background-color: #f8f8f8;
+    }
+  
+    .main-lodge {
+      position: relative;
+      width: 441px;
+      margin: 0 auto;
+  
+      h1 {
+        font-size: 23px;
+        padding-top: 15px;
+        margin-left: 28px;
+        position: relative;
+        text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+  
+        &::after {
+          content: " - 宿泊ロッジ - ";
+        }
+      }
+  
+      .lodge-under {
+        width: 116px;
+        position:absolute;
+        border-bottom: 2px solid #000000;
+        opacity: 0.8;
+        top: 61px;
+        left: 118px;
+      }
+  
+      .logo-phont {
+        position: absolute;
+        width: 74px;
+        height: 176px;
+        top: 9px;
+        left: 9px;
+      }
+  
+      .container {
+  
+        .text-lodge {
+          margin-top: 22px;//add
+          margin-left: 93px;//add
+          background-color: #ffffff;
+          opacity: 0.8;
+          width: 304px;
+          height: 185px;
+          padding-top: 25px;
+          padding-left: 30px;
+  
+          p {
+            font-size: 9px;
+            transform: scale(0.9);
+            transform-origin: left center;
+            line-height: 11px;
+          }
+  
+          .lodge-english {
+            margin-top: 28px;
+            letter-spacing: 1px;
+          }
+  
+          .lodge-read {
+            display: block;
+            border: 1px solid  #707070;
+            width: 98px;
+            transform: scale(0.7);
+            font-size: 7px;
+            transform-origin: left center;
+            padding: 8px 20px;
+            margin-top: 38px;
+            margin-left: 197px;
+          }
+        }
+  
+        .lodge-img {
+          margin-left: 40px;//add
+          
+          img {
+            width: 359px;
+            height: 243px;
+          }
+        }
+      }
+  
+      .lodge-array {
+        margin-top: 20px;
+  
+        img {
+          width: 83px;
+          height: 80px;
+        }
+      }
+    }
+  
+    .main-food {
+      width: 441px;
+      margin: 0 auto;
+      position: relative;
+  
+      h1 {
+        font-size: 23px;
+        text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+        margin-top: 34px;
+        margin-left: 37px;
+      }
+  
+      .logo-food {
+        position: absolute;
+        width: 37px;
+        height: 326px;
+        top: 13px;
+        left: 30px;
+      }
+  
+      .text-food {
+        width: 304px;
+        height: 186px;
+        padding-top: 25px;
+        padding-left: 30px;
+        margin-left: 93px;//add
+        background-color: #ffffff;
+        margin-top: 0;
+  
+        p {
+          font-size: 9px;
+          transform-origin: left center;
+          transform: scale(0.9);
+        }
+  
+        .english {
+          letter-spacing: 1px;
+          margin-top: 28px;
+          margin-bottom: 38px;//add
+        }
+  
+        .food-read {
+          display: block;
+          width: 98px;
+          font-size: 7px;
+          border: 1px solid #707070;
+          transform: scale(0.7);
+          transform-origin: left center;
+          padding: 8px 20px;
+          margin-left: 177px;
+          margin-top: 0;
+        }
+      }
+      .food-img {
+        margin-top: 13px;//add
+        margin-left: 46px;//
+  
+        img {
+          width: 366px;
+          height: 234px;
+        }
+      }
+  
+      .food-array {
+        margin-top: 13px;
+    
+        img {
+          width: 83px;
+          height: 80px;
+        }
+      }
+    }
+  
+    .main-int {
+      position: relative;
+      margin: 0 auto;
+      width: 441px;
+  
+      h1 {
+        font-size: 18px;
+        padding-top: 38px;
+        margin-left: 36px;
+        text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+        position: static;
+  
+        &::after {
+          content: " - 体験プログラム - ";
+          position: static;
+        }
+      }
+
+      .int-under {
+        display: none;
+      }
+  
+      .logo-int {
+        position: absolute;
+        top: 39px;
+        left: 39px;
+        width: 49px;
+        height: 156px;
+      }
+  
+      .text-int {
+        width: 304px;
+        height: 186px;
+        padding-top: 25px;
+        padding-left: 30px;
+        margin-top: 21px;//add
+        margin-left: 93px;//add
+        background-color: #f8f8f8;
+  
+        p {
+          font-size: 9px;
+          transform: scale(0.9);
+          transform-origin: left center;
+          width: 290px;
+        }
+  
+        .english {
+          margin-top: 28px;
+          letter-spacing: 1px;
+          margin-bottom: 30px;//add
+        }
+  
+        .int-read {
+          display: block;
+          width: 98px;
+          font-size: 7px;
+          transform: scale(0.7);
+          transform-origin: left center;
+          border: 1px solid #707070;
+          padding: 8px 20px;
+          margin-left: 180px;
+          margin-top: 0;
+        }
+      }
+  
+      .int-img {
+        margin-left: 46px;//add
+  
+        img {
+          height: 234px;
+          width: 366px;
+        }
+      }
+  
+      .int-array {
+        margin-top: 13px;
+  
+        img {
+          width: 83px;
+          height: 80px;
+        }
+      }
+    }
+  
+    .main-book {
+      width: 441px;
+      margin: 0 auto;
+      height: 440px;
+  
+      .text-book {
+        display: none;//add
+      }
+  
+      .container {
+        position: relative;
+        margin-top: 63px;
+  
+        .main-contact {
+          position: relative;
+          width: 300px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 60px;
+          text-align: left;
+
+          .c-caption {
+            z-index: 1;
+            position: relative;
+            font-size: 15px;
+            text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+            margin-bottom: 10px;
+            
+            &::after {
+              content: " - お問い合わせ - ";
+              position: static;
+            }
+          }
+
+          p {
+            position: relative;
+            z-index: 1;
+            font-size: 9px;
+            transform: scale(0.9);
+            transform-origin: left center;
+            margin-left: 30px;
+            line-height: 11px;
+          }
+        }
+
+        
+        .main-booking {
+          position: relative;
+          width: 300px;
+          margin-left: auto;
+          margin-right: auto;
+
+          p {
+            display: block;
+            position: relative;
+            z-index: 1;
+            font-size: 9px;
+            transform: scale(0.9);
+            transform-origin: left center;
+            margin-left: 30px;
+            line-height: 11px;
+          }
+
+          .b-caption {
+            display: block;
+            z-index: 1;
+            position: relative;
+            font-size: 15px;
+            text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+            margin-bottom: 10px;
+    
+    
+            &::after {
+              content: " - ご予約 - ";
+            }
+          }
+        }
+  
+  
+        .english {
+          margin-top: 15px;
+        }
+  
+  
+  
+        .contact-btn {
+          display: block;
+          font-size: 7px;
+          transform: scale(0.7);
+          padding: 10px 30px;
+          width: 98px;
+          border: 1px solid #707070;
+          margin-left: 200px;
+          margin-top: 30px;
+          position: relative;
+          z-index: 1;
+
+          &::after {
+            content: none;
+          }
+        }
+  
+        .book-btn {
+          display: block;
+          font-size: 7px;
+          transform: scale(0.7);
+          padding: 10px 30px;
+          width: 98px;
+          border: 1px solid #707070;
+          margin-left: 200px;
+          margin-top: 30px;
+          position: relative;
+          z-index: 1;
+
+          &::after {
+            content: none;
+          }
+        }
+  
+        .contact-gray {
+          position: absolute;
+          z-index: 0;
+          width: 270px;
+          height: 158px;
+          background-color: #f8f8f8;
+          top: -10px;
+          left: 10px;
+        }
+  
+        .book-gray {
+          position: absolute;
+          z-index: 0;
+          width: 270px;
+          height: 158px;
+          background-color: #f8f8f8;
+          top: -10px;
+          left: 10px;
+        }     
+      }
+    }
+  }
+  
+  footer {
+    .footer-main {
+      background-color: #000000;
+      opacity: 0.95;
+      display: flex;
+      color: #ffffff;
+      height: 72px;
+  
+      img {
+        margin-left: 15px;
+        width: auto;
+        height: auto;
+      }
+  
+      .footer-iroha {
+        display: block;
+        margin-left: 7px;
+        width: 100px;//add
+        
+        h1 {
+          font-size: 7px;
+          transform: scale(0.7);//add
+          border-bottom: 1px solid #ffffff;
+          width: 30px; 
+          transform-origin: left center;
+        }
+  
+        p {
+          display: block;
+          font-size: 5px;
+          transform: scale(0.5);
+          transform-origin: left center;
+          width: 200px;//add
+        }
+      }
+  
+      .footer-contact {
+        margin-left: 43px;//add
+        margin-top: 0;
+  
+        h1 {
+          display: block;
+          font-size: 7px;
+          transform: scale(0.7);//add
+          transform-origin: left center;//add
+          border-bottom: 1px solid #ffffff;
+          width: 38px;
+        }
+  
+        p {
+          font-size: 5px;
+          transform: scale(0.5);
+          transform-origin: left center;
+          line-height: 10px;
+          text-align: left;
+        }
+
+        .footer-square {
+          position: static;
+          font-size: 1em;
+        }
+      }
+    }
+  
+    .copy {
+      height: 15px;
+      background-color: #000000;
+      opacity: 0.8;
+  
+      p {
+        padding-top: 5px;
+        padding-left: 120px;
+        color: #ffffff;
+        display: block;
+        transform-origin: left center;
+        transform: scale(0.1);
+        font-size: 1px;
+      }
+
+      .sm-copy {
+        display: none;
+      }
+    }
+  }
+
+}
+
+
+@media (min-width: 769px) {
+  .header_parent {
+    background-position: center;
+    background-size: 46%;
+  }
+
+  .slide {
+    img {
+      width: 100%;
+    }
+  }
+
+  .slideshow {
+    img {
+      width: 100%;
+    }
+  }
+
+}
+
+@media (min-width: 768px) {
+  main {
+    width: 100%;
+  
+    .message-gray {
+      display: block;
+      position: absolute;
+      width: 460px;
+      height: 280px;
+      background-color: #f8f8f8;
+      top: 109px;
+      left: 194px;
+    }
+  
+    .message {
+      display: flex;
+      height: 566px;
+      width: 768px;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      margin-top: 61px;
+  
+      h1 {
+        font-size: 19px;
+        position: relative;
+        margin-bottom: 26px;
+        margin-left: 82px;
+      }
+  
+      p {
+        margin-left: 62px;
+        font-size: 13px;
+        line-height: 26px;
+        position: relative;
+        transform: none;
+      }
+  
+      .margin {
+        display: block;
+        margin-bottom: 26px;
+      }
+  
+      .english {
+        margin-top: 26px;
+        letter-spacing: 3px;
+      }
+  
+      .message-read {
+        display: block;
+        font-size: 7px;
+        border: 1px solid #707070;
+        padding: 9px 20px 8px;
+        width: 98px;
+        margin-left: 144px;
+        margin-top: 52px;
+        position: relative;
+      }
+  
+      .message-photo {
+        margin: 0;
+        position: static;
+  
+        .message-photo1 {
+          top: 200px;
+          left: 407px;
+          position: absolute;
+          width: 331px;
+          height: 226px;
+          
+        }
+    
+        .message-photo2 {
+          left: 301px;
+          top: 337px;
+          position: absolute;
+          width: 166px;
+          height: 112px;
+        }
+      }
+  
+    }
+  
+    .background {
+      background-color: #f8f8f8;
+    }
+  
+    .main-lodge {
+      background-color: #f8f8f8;
+      position: relative;
+      height: 566px;
+      margin: 0 auto;
+      width: 768px;
+  
+      h1 {
+        position: relative;
+        font-size: 23px;
+        padding-top: 51px;
+        margin-left: 56px;
+        text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+  
+        &::after {
+          content: " - 宿泊ロッジ - ";
+          font-size: 19px;
+        }
+      }
+  
+      .lodge-under {
+        width: 116px;
+        position: absolute;
+        border-bottom: 2px solid #000000;
+        opacity: 0.8;
+        top: 98px;
+        left: 143px;
+      }
+  
+      .logo-phont {
+        position: absolute;
+        width: 74px;
+        height: 176px;
+        top: 45px;
+        left: 37px;
+      }
+  
+      .container {
+        display: flex;
+        margin-left: 117px;
+  
+        .text-lodge {
+          position: absolute;
+          background-color: #ffffff;
+          width: 304px;
+          height: 186px;
+          z-index: 1;
+          opacity: 0.8;
+          padding-top: 29px;
+          padding-left: 30px;
+          top: 169px;
+          margin-top: 0;
+          margin-left: 0;
+  
+          p {
+            display: block;
+            transform: scale(0.6);
+            transform-origin: left center;
+            font-size: 6px;
+            line-height: 12px;
+            width: 270px;
+          }
+  
+          .lodge-english {
+            margin-top: 32px;
+            letter-spacing: 1px;
+          }
+  
+          .lodge-read {
+            width: 90px;
+            font-size: 5px;
+            display: block;
+            border: 1px solid #707070;
+            transform:scale(0.5);
+            transform-origin: center;
+            padding: 7px 17px 6px;
+            margin-top: 21px;
+            margin-left: 170px;
+          }
+        }
+  
+        .lodge-img {
+          position: absolute;
+          z-index: 0;
+          top: 112px;
+          left: 379px;
+          margin-left: 0;
+  
+          img {
+            width: 360px;
+            height: 233px;
+          }
+        }
+      }
+  
+      .lodge-array {
+        margin-top: 304px;
+        margin-left: 123px;
+  
+        img {
+          width: 122px;
+          height: 119px;
+        }
+      }
+    }
+  
+    .main-food {
+      height: 566px;
+      position: relative;
+      width: 768px;
+      margin: 0 auto;
+  
+      h1 {
+        font-size: 23px;
+        text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+        margin-top: 52px;
+        margin-left: 65px;
+      }
+  
+      .food-under {
+        width: 153px;
+        position: absolute;
+        border-bottom: 2px solid #000000;
+        top: 45px;
+        left: 143px;
+      }
+  
+      .logo-food {
+        position: absolute;
+        width: 37px;
+        height: 326px;
+        top: -10px;
+        left: 57px;
+      }
+  
+      .text-food {
+        position: absolute;
+        background-color: #f8f8f8;
+        width: 322px;
+        height: 181px;
+        padding-top: 28px;
+        padding-left: 30px;
+        opacity: 0.8;
+        z-index: 1;
+        top: 45px;
+        left: 415px;
+        margin-left: 0;
+  
+        p {
+          display: block;
+          transform: scale(0.6);
+          transform-origin: left center;
+          font-size: 6px;
+          line-height: 12px;
+        }
+  
+        .english {
+          margin-top: 15px;
+          letter-spacing: 1px;
+          margin-bottom: 0;
+        }
+  
+        .food-read {
+          width: 90px;
+          font-size: 5px;
+          display: block;
+          border: 1px solid #707070;
+          transform:scale(0.5);
+          transform-origin: center;
+          padding: 7px 17px 6px;
+          margin-top: 21px;
+          margin-left: 170px;
+        }
+      }
+  
+      .food-img {
+        position: absolute;
+        top: 105px;
+        left: 123px;
+        margin: 0;
+  
+        img {
+          width: 324px;
+          height: 198px;
+        }
+      }
+  
+      .food-array  {
+        display: flex;
+        margin-top: 302px;
+        margin-left: 123px;
+  
+        img {
+          width: 122px;
+          height: 119px;
+        }
+      }
+    }
+  
+    .main-int {
+      height: 566px;
+      position: relative;
+      background-color: #f8f8f8;
+      margin: 0 auto;
+      width: 768px;
+  
+      h1 {
+        position: relative;
+        font-size: 23px;
+        padding-top: 56px;
+        margin-left: 65px;
+        text-shadow: 0px 2px 1px rgba(88, 45, 45, 0.3);
+        
+        &::after {
+          content: " - 体験プログラム - ";
+        }
+      }
+  
+      .int-under {
+        position: absolute;
+        border-bottom: 1px solid #000000;
+        width: 190px;
+        left: 123px;
+        top: 102px;
+      }
+  
+      .logo-int {
+        position: absolute;
+        width: 52px;
+        height: 218px;
+        top: 57px;
+        left: 48px;
+      }
+  
+      .container {
+        display: flex;
+        position: relative;
+  
+        .text-int {
+          position: absolute;
+          background-color: #ffffff;
+          width: 304px;
+          height: 185px;
+          opacity: 0.8;
+          top: 90px;
+          left: 117px;
+          padding-top: 29px;
+          padding-left: 30px;
+          z-index: 1;
+          margin: 0;
+  
+          p {
+            font-size: 6px;
+            line-height: 12px;
+            display: block;
+            transform: scale(0.6);
+            transform-origin: left center;
+            width: 304px;
+          }
+  
+          .english {
+            margin-top: 15px;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+          }
+  
+          .int-read {
+            width: 90px;
+            font-size: 5px;
+            display: block;
+            border: 1px solid #707070;
+            transform:scale(0.5);
+            transform-origin: center;
+            padding: 7px 17px 6px;
+            margin-top: 40px;
+            margin-left: 170px;
+          }
+        }
+  
+        .int-img {
+          position: absolute;
+          top: 28px;
+          left: 378px;
+          margin: 0;
+  
+          img {
+            width: 358px;
+            height: 233px;
+          }
+        }
+      }
+      .int-array {
+        display: flex;
+        margin-top: 300px;
+        margin-left: 123px;
+  
+        img {
+          width: 122px;  
+          height: 119px;
+        }
+      }
+    }
+  
+    .main-book {
+      height: 566px;
+      position: relative;
+      margin: 0 auto;
+      width: 768px;
+      margin-bottom: 0;
+  
+      .text-book {
+        display: block;
+        margin-top: 88px;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+  
+        .brank {
+          margin-top: 52px;
+        }
+      }
+  
+      .container {
+        margin-top: 98px;
+        display: flex;
+  
+        .main-contact {
+          position: relative;
+          width: 296px;
+          margin-left: 68px;
+  
+        }
+        
+        p {
+          position: relative;
+          z-index: 1;
+          font-size: 6px;
+          display: block;
+          transform: scale(0.6);
+          transform-origin: left center;
+          margin-left: 30px;
+        }
+        
+        .english {
+          margin-top: 9px;
+        }
+  
+        .c-caption {
+          margin-bottom: 9px;
+          z-index: 1;
+          position: relative;
+          font-size: 16px;
+          text-shadow: 0px 2px 1px rgba(88, 45, 45, 0.3);
+          
+          &::after {
+            content: " - お問い合わせ - ";
+          }
+        }
+  
+        .contact-btn {
+          margin-left: 200px;
+          margin-top: 22px;
+          font-size: 7px;
+          transform: scale(0.7);
+          padding: 10px 15px 10px 26px;
+          z-index: 1;
+          position: relative;
+          display: block;
+          width: 91px;
+          border: 1px solid #707070;
+        }
+        
+        .contact-gray {
+          position: absolute;
+          z-index: 0;
+          width: 256px;
+          height: 130px;
+          background-color: #f4f4f4;
+          top: 1px;
+          left: 15px;
+        }
+      }
+      
+      .main-booking {
+        position: relative;
+        width: 296px;
+        margin-left: 42px;
+      }
+      
+      .b-caption {
+        position: relative;
+        z-index: 1;
+        font-size: 16px;
+        text-shadow: 0px 2px 1px rgba(88, 45, 45, 0.3);
+        margin-bottom: 9px;
+      }
+      
+      .book-btn {
+        margin-left: 200px;
+        margin-top: 22px;
+        font-size: 7px;
+        transform: scale(0.7);
+        padding: 10px 15px 10px 26px;
+        z-index: 1;
+        position: relative;
+        display: block;
+        width: 91px;
+        border: 1px solid #707070;
+      }
+  
+      .book-gray {
+        position: absolute;
+        z-index: 0;
+        width: 256px;
+        height: 130px;
+        background-color: #f4f4f4;
+        top: 1px;
+        left: 15px;
+      }
+    }
+  }
+  
+  footer {
+  
+    .footer-main {
+      background-color: #000000;
+      opacity: 0.95;
+      height: 133px;
+      display: flex;
+      color: #ffffff;
+  
+      img {
+        margin-left: 29px;
+      }
+  
+      .footer-iroha {
+        margin-top: 17px;
+        margin-left: 20px;
+        width: 138px;
+  
+        h1 {
+          font-size: 12px;
+          border-bottom: 1px solid #ffffff;
+          width: 40px;
+          transform: none;
+        }
+  
+        p {
+          line-height: 18px;
+          display: block;
+          font-size: 9px;
+          transform: scale(0.9);
+          transform-origin: left center;
+          width: 200px;
+        }
+      }
+  
+      .footer-contact {
+        margin-left: 170px;
+        // margin-right: 45px;
+        margin-top: 17px;
+  
+        h1 {
+          font-size: 12px;
+          border-bottom: 1px solid #ffffff;
+          width: 40px;
+          transform: none;
+        }
+  
+        p {
+          line-height: 18px;
+          display: block;
+          font-size: 9px;
+          transform: scale(0.9);
+          transform-origin: left center;
+          margin-left: 10px;
+        }
+  
+        .footer-square {
+          font-size: 1.5em;
+        }
+      }
+    }
+  
+    .copy {
+      height: 28px;
+      background-color: #000000;
+      opacity: 0.8;
+  
+      p {
+        padding-top: 10px;
+        padding-left: 25px;
+        color: #ffffff;
+        display: block;
+        transform: scale(0.5);
+        font-size: 5px;
+        transform-origin: left center;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1261px) {
+
+  .slide {
+    img {
+      width: 100vw;
+    }
+  }
+
+  .header_parent {
+    background-position: center;
+  }
+
+  .header {
+    height: 137px;
+  
+
+    .caption {
+      font-size: 23px;
+      margin-top: 33px;
+      margin-left: 48px;
+  
+      .logo-iroha {
+        font-size: 40px;
+  
+      }
+  
+      &::after {
+        font-size: 15px;
+        top: 46px;
+      }
+  
+  
+    }
+    
+  }
+
+
+  .wide_nav {
+    display: block;
+    margin-left: auto;
+  }
+
+  .wide_ul {
+    display: block;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    justify-content: space-between;
+    
+    
+    
+   
+
+    .about {
+      margin-top: 39px;
+      position: relative;
+      width: 162px;
+      text-align: center;
+    }
+
+    .about-text::after {
+        content: "-いろはのこと-";
+        position: absolute;
+        top: 35px;
+        left: 38px;
+        font-size: 15px;
+      }
+
+    .lodge {
+      margin-top: 39px;
+      position: relative;
+      width: 162px;
+      text-align: center;
+    }
+
+    .lodge-text::after {
+      content: "-宿泊ロッジ-";
+      position: absolute;
+      top: 35px;
+      left: 38px;
+      font-size: 15px;
+    }
+
+    .food {
+      margin-top: 20px;
+      position: relative;
+      width: 165px;
+      text-align: center;
+    }
+
+    .food-text::after {
+      content: "-食工房/ラウンジ-";
+      position: absolute;
+      top: 65px;
+      left: 20px;
+      font-size: 15px;
+    }
+
+    .interactive {
+      margin-top: 20px;
+      position: relative;
+      width: 162px;
+      text-align: center;
+    }
+
+    .interactive-text::after {
+      content: "-体験プログラム-";
+      position: absolute;
+      top: 65px;
+      left: 20px;
+      font-size: 15px;
+    }
+
+    .booking {
+      margin-top: 39px;
+      position: relative;
+      margin-right: 85px;
+      width: 162px;
+      text-align: center;
+    }
+
+    .booking-text::after {
+      content: "-ご予約-";
+      position: absolute;
+      top: 35px;
+      left: 50px;
+      font-size: 15px;
+    }
+  }
+  
+  .sp-menu {
+    display: none;
+  }
+  
+}
+
+@media (min-width: 1920px) {
+  main {
+    width: 100%;
+  
+    .message-gray {
+      position: absolute;
+      left: 443px;
+      top: 130px;
+      width: 1149px;
+      height: 700px;
+      background-color: #f8f8f8;
+    }
+  
+    .message {
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      margin-top: 158px;
+      position: relative;
+      height: 1300px;
+      width: 1920px;
+    
+      h1 {
+        font-size: 50px;
+        margin-bottom: 63px;
+        position: relative;
+        margin-left: 206px;
+      }
+  
+      p {
+        font-size: 35px;
+        line-height: 55px;
+        position: relative;
+        margin-left: 155px;
+      }
+      
+      .margin {
+        display: block;
+        margin-bottom: 70px;
+      }
+  
+      .english {
+        margin-top: 70px;
+      }
+  
+      .message-read {
+        display: block;
+        font-size: 20px;
+        border: 2px solid #707070;
+        padding: 20px 44px 21px 45px;
+        margin-top: 127px;
+        width: 220px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        transform: none;
+      }
+  
+      .message-photo {
+        height: 480px;
+        width: 700px;
+        position: relative;
+
+        .message-photo1 {
+          position: relative;
+          top: 0;
+          left: 0;
+          width: 698px;
+          height: 476px;
+          margin-bottom: 80px;
+          margin-left: 206px;
+        }
+
+        .message-photo2 {
+          position: relative;
+          top: 0;
+          left: 0;
+          margin-left: 206px;
+          width: 698px;
+          height: 476px;
+        }
+      }
+    }
+  
+    // ここより下.main-lodge
+  
+    .background {
+      background-color: #f8f8f8;
+    }
+  
+    .main-lodge {
+      background-color: #f8f8f8;
+      position: relative;
+      height: 1412px;
+      margin: 0 auto;
+      width: 1920px;
+  
+      h1 {
+        position: relative;
+        font-size: 60px;
+        padding-top: 128px;
+        margin-left: 139px;
+        text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
+  
+        &::after {
+          position: absolute;
+          content: "- 宿泊ロッジ -";
+          font-size: 50px;
+          top: 131px;
+          left: 230px;
+        }
+      }
+  
+      .lodge-under {
+        width: 291px;
+        position: absolute;
+        border-bottom: 2px solid #000000;
+        top: 230px;
+        left: 340px;
+      }
+  
+      .logo-phont {
+        position: absolute;
+        top: 110px;
+        left: 92px;
+        width: 186px;
+        height: 442px;
+      }
+  
+      .container {
+        display: flex;
+        margin-left: 309px;
+  
+        .text-lodge {
+          position: absolute;
+          background-color: #ffffff;
+          width: 761px;
+          height: 465px;
+          padding-top: 74px;
+          padding-left: 76px;
+          top: 421px;
+          z-index: 1;
+          opacity: 0.8;
+          
+          p {
+            font-size: 18px;
+            line-height: 30px;
+            width: 485px;
+            transform: none;
+          }
+          .lodge-english {
+            font-size: 15px;
+            margin-top: 60px;
+          }
+          .lodge-read {
+            display: block;
+            border: 2px solid #707070;
+            width: 170px;
+            padding: 16px 36px 12px;
+            margin-top: 80px;
+            margin-left: 420px;
+            transform: none;
+            font-size: 15px;
+          }
+  
+        }
+        .lodge-img {
+          position: absolute;
+          z-index: 0;
+          top: 281px;
+          left: 947px;
+  
+          img {
+            width: 898px;
+            height: 583px;
+  
+          }
+        }
+      }
+  
+      .lodge-array {
+        margin-top: 757px;
+        margin-left: 309px;
+
+        img {
+          width: 307px;
+          height: 298px;
+        }
+  
+      }
+    }
+  
+    .main-food {
+      height: 1406px;
+      position: relative;
+      width: 1920px;
+      margin: 0 auto;
+  
+      h1 {
+        font-size: 60px;
+        text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
+        margin-left: 163px;
+        margin-top: 131px;
+      }
+  
+      .food-under {
+        width: 383px;
+        position: absolute;
+        border-bottom: 2px solid #000000;
+        top: 100px;
+        left: 330px;
+      }
+  
+      .logo-food {
+        position: absolute;
+        top: -30px;
+        left: 143px;
+        width: 94px;
+        height: 816px;
+      }
+  
+      .text-food {
+        position: absolute;
+        background-color: #f8f8f8;
+        width: 806px;
+        height: 455px;
+        padding-top: 72px;
+        padding-left: 76px;
+        top: 200px;
+        left: 1038px;
+        opacity: 0.8;
+        z-index: 1;
+        
+        p {
+          font-size: 18px;
+          line-height: 30px;
+          transform: none;
+        }
+  
+        .english {
+          margin-top: 60px;
+        }
+  
+        .food-read {
+          display: block;
+          border: 2px solid #707070;
+          width: 170px;
+          padding: 16px 36px 12px;
+          margin-top: 100px;
+          margin-left: 470px;
+          transform: none;
+          font-size: 15px;
+        }
+      }
+  
+      .food-img {
+        position: absolute;
+        top: 340px;
+        left: 309px;
+
+        img {
+          width: 898px;
+          height: 583px;
+        }
+      }
+  
+      .food-array {
+        display: flex;
+        margin-top: 940px;
+        margin-left: 309px;
+
+        img {
+          width: 307px;
+          height: 298px;
+        }
+
+      }
+    }
+  
+    .main-int {
+      height: 1420px;
+      position: relative;
+      background-color: #f8f8f8;
+      margin: 0 auto;
+      width: 1920px;
+  
+      h1 {
+        position: relative;
+        font-size: 60px;
+        padding-top: 127px;
+        margin-left: 164px;
+        text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
+  
+  
+        &::after {
+          content: " - 体験プログラム - ";
+        }
+      }
+  
+      .int-under {
+        width: 476px;
+        border-bottom: 2px solid #000000;
+        position: absolute;
+        top: 240px;
+        left: 290px;
+      }
+  
+      .logo-int {
+        position: absolute;
+        top: 130px;
+        left: 143px;
+        height: 560px;
+        width: 133px;
+      }
+  
+      .container {
+        display: flex;
+        position: relative;
+  
+        .text-int {
+          position: absolute;
+          background-color: #ffffff;
+          width: 765px;
+          height: 465px;
+          padding-left: 74px;
+          padding-top: 76px;
+          opacity: 0.8;
+          top: 200px;
+          left: 309px;
+          z-index: 1;
+  
+          p {
+            font-size: 18px;
+            line-height: 30px;
+            transform: none;
+            width: 765px;
+          }
+  
+          .english {
+            margin-top: 60px;
+          }
+  
+          .int-read {
+            display: block;
+            border: 2px solid #707070;
+            width: 170px;
+            padding: 16px 36px 12px;
+            margin-top: 103px;
+            margin-left: 440px;
+            transform: none;
+            font-size: 15px;
+          }
+        }
+  
+        .int-img {
+          position: absolute;
+          top: 71px;
+          left: 947px;
+
+          img {
+            width: 898px;
+            height: 583px;
+          }
+        }
+      }
+  
+      .int-array {
+        margin-top: 758px;
+        margin-left: 309px;
+
+        img {
+          width: 307px;
+          height: 298px;
+        }
+      }
+    }
+  
+    .main-book {
+      height: 1385px;
+      position: relative;
+      margin: 0 auto;
+      width: 1920px;
+  
+      .text-book {
+        margin-top: 220px;
+        font-size: 30px;
+        line-height: 60px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+  
+        .brank {
+          margin-top: 120px;
+        }
+      }
+  
+      .container {
+        margin-top: 241px;
+        display: flex;
+        width: 1574px;
+        margin-right: auto;
+        margin-left: auto;
+  
+        .main-contact {
+          position: relative;
+          width: 729px;
+  
+          p {
+            position: relative;
+            z-index: 1;
+            font-size: 18px;
+            line-height: 36px;
+            margin-left: 83px;
+            transform: none;
+          }
+  
+          .english {
+            margin-top: 22px;
+          }
+  
+          .c-caption {
+            z-index: 1;
+            position: relative;
+            font-size: 40px;
+            text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
+            margin-bottom: 23px;
+    
+            &::after {
+              content: " - お問い合わせ - ";
+            }
+          }
+  
+          .contact-btn {
+            z-index: 1;
+            position: relative;
+            display: block;
+            width: 228px;
+            border: 2px solid #707070;
+            padding: 27px 74px 23px;
+            margin-top: 56px;
+            margin-left: 500px; 
+            transform: none;
+            font-size: 20px;
+          }
+  
+          .contact-gray {
+            position: absolute;
+            z-index: 0;
+            width: 675px;
+            height: 395px;
+            background-color: #f4f4f4;
+            top: -30px;
+            left: 30px;
+          }
+        }
+        
+        .main-booking {
+          position: relative;
+          width: 729px;
+          margin-left: 106px;
+          
+          p {
+            position: relative;
+            z-index: 1;
+            font-size: 18px;
+            line-height: 36px;
+            margin-left: 83px;
+            transform: none;
+          }
+          
+          .english {
+            margin-top: 22px;
+          }
+          
+          .b-caption {
+            position: relative;
+            z-index: 1;
+            font-size: 40px;
+            text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
+            margin-bottom: 23px;
+            
+            &::after {
+              content: " - ご予約 - ";
+            }
+          }
+  
+          .book-btn {
+            position: relative;
+            z-index: 1;
+            display: block;
+            width: 228px;
+            border: 2px solid #707070;
+            padding: 27px 74px 23px; 
+            margin-top: 56px;
+            margin-left: 500px;
+            transform: none;
+            font-size: 20px;
+          }
+  
+          .book-gray {
+            z-index: 0;
+            position: absolute;
+            width: 675px;
+            height: 395px;
+            background-color: #f4f4f4;
+            top: -30px;
+            left: 30px;
+          }
+        }
+  
+  
+      }
+    }
+  }
+  
+  
+  footer {
+  
+    .footer-main {
+      background-color: #000000;
+      opacity: 0.95;
+      height: 331px;
+      display: flex;
+      color: #ffffff;
+  
+      img {
+        width: 390px;
+        margin-left: 53px;
+      }
+  
+      .footer-iroha {
+        margin-top: 43px;
+        margin-left: 76px;
+        width: 450px;
+  
+        h1 {
+          width: 90px;
+          font-size: 30px;
+          border-bottom: 2px solid #ffffff;
+        }
+  
+        p {
+          margin-top: 20px;
+          font-size: 23px;
+          transform: none;
+          line-height: 30px;
+          width: 450px;
+        }
+      }
+  
+      .footer-contact {
+        margin-left: 410px;
+        margin-top: 43px;
+  
+        h1 {
+          width: 90px;
+          font-size: 30px;
+          border-bottom: 2px solid #ffffff;
+        }
+  
+        p {
+          margin-top: 20px;
+          margin-left: 32px;
+          font-size: 23px;
+          transform: none;
+          line-height: 30px;
+        }
+  
+        .footer-square {
+          margin-top: 25px;
+          margin-right: 5px;
+          font-size: 4em;
+        }
+      }
+    }
+  
+    .copy {
+      height: 70px;
+      background-color: #000000;
+      opacity: 0.8;
+      
+      p {
+        padding-top: 24px;
+        margin-left: 64px;
+        color: #ffffff;
+        transform: none;
+        font-size: 15px;
+      }
+    }
+  }
+}

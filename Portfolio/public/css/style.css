@@ -1,0 +1,919 @@
+#drop {
+  opacity: 0;
+  transition: all 3s; }
+
+#drop2 {
+  opacity: 0;
+  transition: all 3s; }
+
+#drop3 {
+  opacity: 0;
+  transition: all 3s; }
+
+#drop4 {
+  opacity: 0;
+  transition: all 3s; }
+
+#drop.show {
+  opacity: 1; }
+
+#drop2.show {
+  opacity: 1; }
+
+#drop3.show {
+  opacity: 1; }
+
+#drop4.show {
+  opacity: 1; }
+
+.top {
+  display: none; }
+
+.header {
+  background-image: url("../img/header.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.header_container {
+  display: flex;
+  background-color: #000000;
+  opacity: 0.7;
+  height: 60px; }
+
+.header_caption {
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 20px;
+  color: #fff; }
+
+.header_nav {
+  display: none;
+  margin-left: auto; }
+
+.header_ul {
+  display: flex;
+  margin-top: 20px; }
+
+.nav_text {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 23px; }
+
+.big_caption {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 160px; }
+  .big_caption span {
+    display: block; }
+
+.ham {
+  position: fixed;
+  font-size: 2em;
+  bottom: 10px;
+  right: 10px;
+  font-size: 1.5em;
+  border: 3px solid #4FCBBA;
+  border-radius: 50%;
+  color: #4FCBBA;
+  padding: 13px;
+  background-color: rgba(255, 255, 255, 0.9); }
+
+.ham.hide {
+  display: none; }
+
+.overlay {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.7);
+  pointer-events: none;
+  height: 240px;
+  width: 200px;
+  opacity: 0;
+  transform: translateX(16px);
+  transition: opacity .3s, transform 3s; }
+
+.overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: none; }
+
+.arrow {
+  color: #4FCBBA;
+  position: absolute;
+  top: 29px;
+  right: 28px;
+  transform: rotate(180deg);
+  font-size: 1.5em; }
+
+.close_ul {
+  color: #4FCBBA;
+  margin-top: 38px;
+  margin-left: 49px; }
+
+.close_li {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold; }
+
+.background {
+  background-color: #f8f8f8; }
+
+.main_h {
+  font-size: 50px;
+  padding-top: 47px;
+  font-weight: bold;
+  text-align: center;
+  display: block; }
+
+.section {
+  width: 375px;
+  height: 950px;
+  margin: 0 auto; }
+
+.box {
+  height: 12px;
+  border: 1px solid #fff; }
+
+.box1 {
+  width: 201px;
+  margin-left: 87px;
+  background-color: #CB9423; }
+
+.main_imgSlide {
+  margin-top: 85px;
+  margin-left: 48px; }
+
+.main_img > img {
+  width: 280px;
+  height: 240px; }
+
+.circle_btn {
+  display: none;
+  position: relative;
+  background-color: #707070;
+  border-radius: 50%; }
+
+.sp_container {
+  display: flex; }
+
+.sp_circle {
+  position: relative;
+  background-color: #707070;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 115px;
+  margin-top: 41px; }
+
+.right {
+  margin-left: 63px; }
+
+.tri_btn {
+  position: absolute;
+  font-size: 2em;
+  color: #fff;
+  top: 5px;
+  left: 5px; }
+
+.show1 {
+  position: absolute; }
+
+.fadeout {
+  opacity: 0;
+  transform: translateX(0px);
+  transition: opacity 1s ease, transform 1s; }
+
+.fadein {
+  opacity: 1;
+  transform: none;
+  transition: opacity 1s ease, transform 1s; }
+
+.pointer {
+  display: flex; }
+
+.circle_point {
+  width: 20px;
+  height: 20px;
+  background-color: #707070;
+  border-radius: 50%;
+  margin-left: 110px;
+  margin-top: 44px;
+  opacity: 0.3;
+  transition: opacity 1s; }
+
+.check {
+  opacity: 1;
+  transition: opacity 1s; }
+
+.works_p {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 71px; }
+
+.box2 {
+  background-color: #CB2382;
+  width: 190px;
+  margin-left: 95px; }
+
+.about {
+  margin-top: 54px; }
+
+.pc_img {
+  width: 375px;
+  height: 210px; }
+
+.about_text {
+  margin-top: 50px; }
+
+.about_p {
+  font-size: 13px;
+  margin-left: 75px;
+  margin-top: 37; }
+  .about_p span {
+    display: block; }
+
+.margin {
+  margin-top: 28px; }
+
+.contact {
+  display: flex;
+  background-color: rgba(30, 156, 143, 0.4);
+  margin-top: 46px;
+  margin-left: 135px;
+  padding: 5px 33px 5px 28px;
+  width: 140px; }
+
+.contact_btn {
+  display: block;
+  color: #fff;
+  border: 0 solid #000000;
+  font-size: 13px; }
+
+.contact_phone {
+  color: #f8f8f8;
+  font-size: 1em;
+  margin-right: 13px; }
+
+.profile {
+  display: flex;
+  border: 5px solid #861515;
+  border-radius: 20px;
+  width: 347px;
+  height: 176px;
+  margin-left: 14px;
+  margin-top: 41px; }
+
+.profile_photo {
+  margin-top: 41px;
+  margin-left: 14px;
+  width: 78px;
+  height: 105px; }
+
+.name {
+  font-size: 13px;
+  margin-left: 14px;
+  padding-top: 41px;
+  margin-bottom: 5px; }
+
+.profile_p {
+  font-size: 13px;
+  margin-left: 7px;
+  line-height: 20px; }
+  .profile_p span {
+    display: block; }
+
+.box3 {
+  background-color: #00BAF2;
+  width: 232px;
+  margin-left: 72px; }
+
+.rpg {
+  background-color: black; }
+
+.rpg1 {
+  display: none;
+  width: 1577px;
+  height: 1007px;
+  border-radius: 40px;
+  margin-left: 178px;
+  margin-top: 30px; }
+
+.rpg_border {
+  border: 10px solid #fff;
+  border-radius: 20px; }
+
+.rpg_m {
+  width: 323px;
+  height: 443px;
+  margin-left: 185px;
+  margin-top: 300px; }
+
+.mask {
+  color: #fff;
+  font-size: 12em;
+  margin-left: 30px;
+  margin-top: 110px; }
+
+.rpg_ser {
+  margin-left: 37px; }
+
+.rpg_name {
+  width: 328px;
+  height: 402px;
+  margin-top: 118px; }
+
+.rpg_text {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px; }
+
+.rpg_e {
+  width: 328px;
+  height: 361px;
+  margin-top: 41px; }
+
+.rpg_equipment {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 60px; }
+
+.rpg_sk {
+  width: 550px;
+  height: 804px;
+  margin-top: 118px;
+  margin-left: 37px; }
+
+.rpg_skill {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 100px; }
+
+.rpg_p {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin-top: 60px; }
+  .rpg_p .span {
+    display: block; }
+
+.rpg2 {
+  width: 313px;
+  height: 737px;
+  margin-top: 39px;
+  margin-left: 33px;
+  padding-top: 30px; }
+
+.sp_rpg_border {
+  border: 4px solid #fff;
+  border-radius: 20px; }
+
+.sp_rpg {
+  display: flex;
+  width: 230px;
+  height: 147px;
+  margin-left: 40px; }
+
+.sp_mask {
+  width: 80px;
+  height: 86px;
+  margin-top: 30px;
+  margin-left: 17px; }
+
+.sp_m {
+  color: #fff;
+  font-size: 3em;
+  margin-top: 14px;
+  margin-left: 6px; }
+
+.sp_name {
+  margin-left: 10px; }
+
+.sp_rpg_text {
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  margin-top: 7px; }
+
+.sp_rpg_equipment {
+  width: 230px;
+  height: 120px;
+  margin-top: 30px;
+  margin-left: 40px; }
+
+.sp_rpg_e {
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  margin-top: 15px; }
+
+.sp_rpg_skill {
+  width: 230px;
+  height: 356px;
+  margin-top: 30px;
+  margin-left: 40px; }
+
+.sp_rpg_s {
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  margin-top: 25px; }
+
+.sp_rpg_p {
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  margin-top: 15px; }
+  .sp_rpg_p span {
+    display: block; }
+
+.box4 {
+  background-color: #00A600;
+  width: 248px;
+  margin-left: 61px; }
+
+.label {
+  display: block;
+  margin-left: 61px;
+  font-size: 13px;
+  margin-top: 111px;
+  margin-bottom: 10px; }
+
+.input {
+  border: 1px solid #000;
+  margin-left: 61px;
+  height: 30px;
+  width: 248px;
+  font-size: 13px; }
+
+.textarea {
+  font-size: 50px;
+  width: 248px;
+  height: 115px;
+  margin-left: 61px;
+  border: 1px solid #000; }
+
+.submit_btn {
+  background-color: rgba(255, 136, 0, 0.7);
+  display: flex;
+  box-shadow: 3px 3px 0px #ff8800;
+  width: 120px;
+  height: 30px;
+  margin-top: 69px;
+  margin-left: 129px; }
+
+.submit {
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 7px;
+  margin-left: 21px; }
+
+.plane {
+  color: #fff;
+  font-size: 1em;
+  margin-top: 7px;
+  margin-left: 15px; }
+
+.footer {
+  background-color: #707070;
+  height: 38px; }
+
+.copylight {
+  color: #fff;
+  font-size: 13px;
+  margin-left: 22px;
+  padding-top: 10px; }
+
+@media (min-width: 768px) {
+  .top {
+    display: block;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 75px;
+    height: 75px;
+    background-color: #00BAF2; }
+
+  .fixer {
+    color: #861515;
+    font-size: 3em;
+    margin-top: 8px;
+    margin-left: 8px; }
+
+  .header_nav {
+    display: block; }
+
+  .sp-menu {
+    display: none; }
+
+  .header_caption {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 40px; }
+
+  .big_caption {
+    margin-top: 200px; }
+    .big_caption span {
+      display: inline; }
+
+  .section {
+    width: 768px;
+    height: 750px; }
+
+  .main_h {
+    font-size: 50px; }
+
+  .box1 {
+    width: 200px;
+    margin-left: 285px; }
+
+  .main_imgSlide {
+    margin-top: 62px;
+    margin-left: px; }
+
+  .main_img > img {
+    width: 450px;
+    height: 280px; }
+
+  .slide {
+    display: flex; }
+
+  .circle_btn {
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin-left: 50px;
+    margin-top: 180px; }
+
+  .tri_btn {
+    top: 10px;
+    left: 15px; }
+
+  .circle_point {
+    margin-left: 240px;
+    margin-top: 32px; }
+
+  .works_p {
+    font-size: 30px;
+    margin-top: 25px; }
+
+  .box2 {
+    width: 190px;
+    margin-left: 290px; }
+
+  .sp_container {
+    display: none; }
+
+  .about {
+    display: flex; }
+
+  .about_p {
+    margin-top: 0;
+    margin-left: 0; }
+
+  .profile {
+    margin-top: 0; }
+
+  .rpg2 {
+    display: none; }
+
+  .rpg1 {
+    display: flex;
+    width: 700px;
+    height: 480px;
+    margin-left: 34px;
+    margin-top: 5px;
+    border-radius: 20px; }
+
+  .rpg_m {
+    width: 147px;
+    height: 214px;
+    margin-top: 108px;
+    margin-left: 41px; }
+
+  .mask {
+    font-size: 6em;
+    margin-left: 0;
+    margin-top: 50px; }
+
+  .rpg_ser {
+    margin-left: 14px; }
+
+  .rpg_name {
+    width: 201px;
+    height: 194px;
+    margin-top: 30px; }
+
+  .rpg_text {
+    font-size: 10px;
+    margin-top: 15px; }
+
+  .rpg_e {
+    width: 201px;
+    height: 182px;
+    margin-top: 6px; }
+
+  .rpg_equipment {
+    font-size: 10px;
+    margin-top: 30px; }
+
+  .rpg_sk {
+    width: 250px;
+    height: 382px;
+    margin-top: 30px; }
+
+  .rpg_skill {
+    font-size: 10px;
+    margin-top: 30px; }
+
+  .rpg_p {
+    font-size: 10px;
+    margin-top: 20px; }
+    .rpg_p .tab {
+      display: block; }
+
+  .box3 {
+    width: 232px;
+    margin-left: 267px; }
+
+  .box4 {
+    width: 232px;
+    margin-left: 267px; }
+
+  .label {
+    font-size: 20px;
+    margin-left: 171px;
+    margin-top: 27px; }
+
+  .input {
+    font-size: 20px;
+    width: 426px;
+    height: 35px;
+    margin-left: 171px; }
+
+  .textarea {
+    font-size: 20px;
+    width: 426px;
+    height: 96px;
+    margin-left: 171px; }
+
+  .submit_btn {
+    width: 138px;
+    height: 41px;
+    margin-left: 315px;
+    margin-top: 36px; }
+
+  .submit {
+    font-size: 20px;
+    margin-top: 10px; }
+
+  .plane {
+    font-size: 1.5em; } }
+@media (min-width: 1920px) {
+  .header_container {
+    height: 149px; }
+
+  .header_caption {
+    padding-top: 40px;
+    padding-left: 80px;
+    font-size: 60px; }
+
+  .header_ul {
+    margin-top: 55px; }
+
+  .nav_text {
+    font-size: 40px;
+    margin-right: 46px; }
+
+  .big_caption {
+    font-size: 100px;
+    margin-top: 350px; }
+
+  .section {
+    width: 1920px;
+    height: 1700px; }
+
+  .main_h {
+    font-size: 100px;
+    padding-top: 120px; }
+
+  .box1 {
+    width: 378px;
+    margin-left: 770px; }
+
+  .main_imgSlide {
+    margin-top: 62px;
+    margin-left: 50px; }
+
+  .main_img > img {
+    width: 1366px;
+    height: 756px; }
+
+  .circle_btn {
+    width: 175px;
+    height: 175px;
+    margin-left: 50px;
+    margin-top: 350px; }
+
+  .tri_btn {
+    font-size: 6em;
+    top: 40px;
+    left: 50px; }
+
+  .circle_point {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 640px;
+    margin-top: 60px; }
+
+  .works_p {
+    font-size: 50px;
+    margin-top: 85px; }
+
+  .box2 {
+    width: 378px;
+    margin-left: 770px; }
+
+  .about {
+    margin-left: 184px;
+    margin-top: 229px; }
+
+  .rpg {
+    background-color: black; }
+
+  .rpg1 {
+    width: 1577px;
+    height: 1007px;
+    border-radius: 40px;
+    margin-left: 178px;
+    margin-top: 30px; }
+
+  .rpg_border {
+    border: 10px solid #fff;
+    border-radius: 20px; }
+
+  .rpg_m {
+    width: 323px;
+    height: 443px;
+    margin-left: 185px;
+    margin-top: 300px; }
+
+  .mask {
+    color: #fff;
+    font-size: 12em;
+    margin-left: 30px;
+    margin-top: 110px; }
+
+  .rpg_ser {
+    margin-left: 37px; }
+
+  .rpg_name {
+    width: 328px;
+    height: 402px;
+    margin-top: 118px; }
+
+  .rpg_text {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px; }
+
+  .rpg_e {
+    width: 328px;
+    height: 361px;
+    margin-top: 41px; }
+
+  .rpg_equipment {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px; }
+
+  .rpg_sk {
+    width: 550px;
+    height: 804px;
+    margin-top: 118px;
+    margin-left: 37px; }
+
+  .rpg_skill {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px; }
+
+  .rpg_p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px; }
+    .rpg_p .span {
+      display: block; }
+    .rpg_p .tab {
+      display: inline; }
+
+  .pc_img {
+    width: 800px;
+    height: 448px; }
+
+  .about_p {
+    font-size: 30px; }
+
+  .margin {
+    margin-top: 83px; }
+
+  .contact {
+    margin-top: 136px;
+    margin-left: 200px;
+    padding: 19px 71px 19px 43px;
+    width: 363px; }
+
+  .contact_btn {
+    font-size: 40px; }
+
+  .contact_phone {
+    font-size: 3em;
+    margin-right: 46px; }
+
+  .profile {
+    width: 713px;
+    height: 295px;
+    margin-left: 207px; }
+
+  .profile_photo {
+    margin-top: 53px;
+    margin-left: 48px;
+    width: 150px;
+    height: 179px; }
+
+  .name {
+    font-size: 18px;
+    margin-left: 133px;
+    padding-top: 53px;
+    margin-bottom: 20px; }
+
+  .profile_p {
+    font-size: 18px;
+    margin-left: 103px;
+    line-height: 30px; }
+
+  .box3 {
+    width: 465px;
+    margin-left: 725px; }
+
+  .box4 {
+    width: 483px;
+    margin-left: 720px; }
+
+  .label {
+    margin-left: 490px;
+    font-size: 50px;
+    margin-top: 110px; }
+
+  .input {
+    margin-left: 490px;
+    height: 75px;
+    width: 973px;
+    font-size: 50px; }
+
+  .textarea {
+    font-size: 50px;
+    width: 973px;
+    height: 273px;
+    margin-left: 490px; }
+
+  .submit_btn {
+    box-shadow: 10px 10px 0px #ff8800;
+    width: 500px;
+    height: 120px;
+    margin-top: 69px;
+    margin-left: 730px; }
+
+  .submit {
+    font-size: 50px;
+    margin-top: 33px;
+    margin-left: 110px; }
+
+  .plane {
+    font-size: 3.5em;
+    margin-top: 30px;
+    margin-left: 73px; }
+
+  .footer {
+    height: 70px; }
+
+  .copylight {
+    font-size: 24px;
+    padding-top: 20px;
+    margin-left: 63px; } }
+
+/*# sourceMappingURL=style.css.map */

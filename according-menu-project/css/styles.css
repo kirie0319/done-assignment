@@ -1,0 +1,50 @@
+main {
+  width: 400px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.menu1 {
+  margin-top: 60px;
+}
+
+h1 {
+  border-bottom: 1px solid;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+h1::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 0px;
+  border-bottom: solid 2px black;
+  border-right: solid 2px black;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  left: -1px;
+  top: 3px;
+}
+
+.menu1-list {
+  display: none;
+}
+
+.menu2-list {
+  display: none;
+}
+
+li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: dashed 1px black;
+}

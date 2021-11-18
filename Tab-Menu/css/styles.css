@@ -1,0 +1,27 @@
+.container {
+  margin: 30px auto; 
+  width: 400px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  display: block;
+  width: 100px;
+}
+
+a.active {
+  background-color: red;
+
+}
+
+.content.active {
+  display: block;
+  border: solid 1px;
+}
+
+.content {
+  display: none;
+}

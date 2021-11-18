@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Matsueda Yuya portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="sass/style.scss">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top">
+      <a href=""><i class="fab fa-autoprefixer fixer"></i></a>
+    </div>
+    <header class="header">
+      <div class="header_container">
+        <h1 class="header_caption">KIRIE</h1>
+        <nav class="header_nav">
+          <ul class="header_ul">
+            <li class="nav_text"><a href="#works">WORKS</a></li>
+            <li class="nav_text"><a href="#about">ABOUT</a></li>
+            <li class="nav_text"><a href="#service">SERVICE</a></li>
+            <li class="nav_text"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <h1 class="big_caption">DESIGN <span>YOUR</span> <span>LIFE</span></h1>
+    </header>
+    <div class="sp-menu">
+      <i class="fas fa-bars ham" id="open"></i>
+    </div>
+    <div class="overlay">
+      <i class="fas fa-arrow-up arrow" id="close"></i>
+      <nav class="close_nav">
+        <ul class="close_ul">
+          <li class="close_li"><a href="">TOP</a></li>
+          <li class="close_li"><a href="#works">WORKS</a></li>
+          <li class="close_li"><a href="#about">ABOUT</a></li>
+          <li class="close_li"><a href="#service">SERVICE</a></li>
+          <li class="close_li"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+    <main class="background">
+      <section class="section" id="drop">
+        <a name="works" class="main_h">WORKS</a>
+        <div class="box box1"></div>
+        <div class="slide">
+          <div class="circle_btn">
+            <i class="fas fa-arrow-left tri_btn" id="prev"></i>
+          </div>
+          <div class="main_imgSlide">
+            <a href="" class="main_img show1"><img id="show1" class="fadeout" src="img/144lab.png" alt="144labのリンク"></a>
+            <a href="" class="main_img"><img id="show2" class="fadein" src="img/iroha.jpg" alt="暮らしの体験宿のリンク"></a>
+          </div>
+          <div class="circle_btn">
+            <i class="fas fa-arrow-right tri_btn" id="next"></i>
+          </div>
+        </div>
+        <div class="pointer">
+          <div class="circle_point check" id="point1"></div>
+          <div class="circle_point" id="point2"></div>
+        </div>
+        <div class="sp_container">
+          <div class="sp_circle">
+            <i class="fas fa-arrow-left tri_btn" id="spPrev"></i>
+          </div>
+          <div class="sp_circle right">
+            <i class="fas fa-arrow-right tri_btn" id="spNext"></i>
+          </div>
+        </div>
+        <p class="works_p">模写コーディング</p>
+      </section>
+      <section class="section" id="drop2">
+        <a name="about" class="main_h">ABOUT</a>
+        <div class="box box2"></div>
+        <div class="about">
+          <div class="about_img">
+            <img class="pc_img" src="img/pc.png" alt="macbook">
+          </div>
+          <div class="about_text">
+            <p class="about_p">丁寧なコーディングをこころがけ<span>イメージをかたちにする</span><span>お手伝いをさせていただきます</span><span class="margin">少しの遊び心を</span><span>期待を超えるものを念頭に制作しております</span></p>
+              <div class="contact">
+                <i class="fas fa-phone contact_phone"></i>
+                <a class="contact_btn" href="#contact">contact</a>
+              </div>
+          </div>
+        </div>
+        <div class="profile">
+          <div class="profile_img">
+            <img class="profile_photo" src="img/profile.png" alt="プロフィール写真">
+          </div>
+          <div class="profile_text">
+            <h1 class="name">キリエ　- kirie - </h1>
+            <p class="profile_p">大阪生まれ<span>フリーランスでweb制作をしております</span><span>より良いものを作れるように</span><span>日々努力、日々精進しております</span></p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="drop3">
+        <a name="service" class="main_h">SERVICE</a>
+        <div class="box box3"></div>
+        <div class="rpg rpg1">
+          <div class="rpg rpg_border rpg_m">
+            <i class="fas fa-mask mask"></i>
+          </div>
+          <div class="rpg_ser">
+            <div class="rpg rpg_border rpg_name">
+              <h1 class="rpg_text">ユウヤ</h1>
+              <h1 class="rpg_text">リーダー</h1>
+              <h1 class="rpg_text">せいべつ：おとこ</h1>
+              <h1 class="rpg_text">レベル：　20</h1>
+              <h1 class="rpg_text">HP：181</h1>
+              <h1 class="rpg_text">MP：　0</h1>
+            </div>
+            <div class="rpg rpg_border rpg_e">
+              <h1 class="rpg_equipment">E　メガネ</h1>
+              <h1 class="rpg_equipment">E　パソコン</h1>
+              <h1 class="rpg_equipment">E　アイフォン</h1>
+            </div>
+          </div>
+          <div class="rpg rpg_border rpg_sk">
+            <h1 class="rpg_skill">HTML/CSSスキル：　3 / 5</h1>
+            <p class="rpg_p">基本的な記述な・レスポンシブ対応も<span class="tab">問題なくできます。</span><span class="span">CSSでできる簡単な<span class="tab">アニメーションの実装もできます。</span></span></p>
+            <h1 class="rpg_skill">Abode xdスキル：　3 / 5</h1>
+            <p class="rpg_p">簡単なwebデザインができます。</p>
+            <h1 class="rpg_skill">JAVASCRIPTスキル：　2 / 5</h1>
+            <p class="rpg_p">ハンバーガーメニューなど、<span class="span">各種ulメニューの実装もできます。</span></p>
+          </div>
+        </div>
+        <div class="rpg rpg2">
+          <div class="sp_rpg_border sp_rpg">
+            <div class="sp_rpg_border sp_mask">
+              <i class="fas fa-mask sp_m"></i>
+            </div>
+            <div class="sp_name">
+              <h1 class="sp_rpg_text">ユウヤ</h1>
+              <h1 class="sp_rpg_text">リーダー</h1>
+              <h1 class="sp_rpg_text">せいべつ：おとこ</h1>
+              <h1 class="sp_rpg_text">レベル：　20</h1>
+              <h1 class="sp_rpg_text">HP：181</h1>
+              <h1 class="sp_rpg_text">MP:　0</h1>
+            </div>
+          </div>
+          <div class="sp_rpg_border sp_rpg_equipment">
+            <h1 class="sp_rpg_e">E　メガネ</h1>
+            <h1 class="sp_rpg_e">E　パソコン</h1>
+            <h1 class="sp_rpg_e">E　アイフォン</h1>
+          </div>
+          <div class="sp_rpg_border sp_rpg_skill">
+            <h1 class="sp_rpg_s">HTML/CSS：　3 / 5</h1>
+            <p class="sp_rpg_p">基本的な記述な・レスポンシブ対応<span>も問題なくできます。</span><span>CSSでできる簡単な</span><span>アニメーションの実装もできます。</span></p>
+            <h1 class="sp_rpg_s">Abode xdスキル：　3 / 5</h1>
+            <p class="sp_rpg_p">簡単なwebデザインができます。</p>
+            <h1 class="sp_rpg_s">JAVASCRIPTスキル：　2 / 5</h1>
+            <p class="sp_rpg_p">ハンバーガーメニューなど、<span>各種ulメニューの実装もできます。</span></p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="drop4">
+        <a name="contact" class="main_h">CONTACT</a>
+        <div class="box box4"></div>
+        <label class="label" for="name">お名前</label>
+        <input class="input" type="text" id="name">
+        <label class="label" for="mail">メールアドレス</label>
+        <input class="input" type="text" id="mail">
+        <label class="label" for="need">お問い合わせ・ご依頼内容</label>
+        <textarea class="textarea" id="need"></textarea>
+        <div class="box_orange"></div>
+        <div class="submit_btn">
+          <p class="submit">submit</p>
+          <i class="far fa-paper-plane plane"></i>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="copylight">copylight©matsuedayuya</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>

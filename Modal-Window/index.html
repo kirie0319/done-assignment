@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Modal Window</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/destyle.css">
+  </head>
+  <body>
+    <div class="plane">
+      <h1>DEMO</h1>
+      <p>ボタンを押すとモーダルウィンドウが開きます</p>
+      <div id="open">開く</div>
+    </div>
+    <div id="mask" class="hide"></div>
+    <div id="modal" class="hide">
+      <p>Vue.js Modal Window</p>
+      <input type="text">
+      <div class="btn-cover">
+        <div id="close">送信</div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
